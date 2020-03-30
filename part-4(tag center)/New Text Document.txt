@@ -1,0 +1,18 @@
+
+1) 576 er niche extra small, small part start in 576
+[dekhar jonno cnt+shift+m] diye check korte hobe.
+
+2) midium device start-768
+
+3) large device start-992
+
+4) extra large device start-1200
+
+5) 1ram=?
+
+6) 0.25 ram=mb-1, mb-2=0.5ram, mb-3=1ram, mb-4=1.5ram,mb-5=3ram(ram to pixel converter)
+
+7)
+
+
+

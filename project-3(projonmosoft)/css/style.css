@@ -1,0 +1,164 @@
+body {
+    
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+	border-bottom: 3px solid #F1948A;
+	background: #0D0F0F ;
+	opacity: 0.9;
+	
+}
+
+#intro {
+   background-color: #D5F5E3;
+   
+}
+
+#intro .intro-info {
+    padding-top: 80px;
+}
+
+#intro .intro-info h2 {
+    color:  #413e66;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/*--------------------about------------------------*/
+
+.about-img{
+ padding: 10px;
+ border: 30px solid #D5F5E3 ;
+ 
+}
+
+.about-img img {
+  display: block;
+  position: relative;
+  transition: all 0.2s ease-in;
+}
+
+.about-img:hover img { 
+  filter: grayscale(1);
+  transform: scale(1.1);
+}
+
+.about-content {
+	padding: 60px;
+}
+
+.about-content h2 {
+    color: #413e66;
+    font-family: sans-serif;
+    font-weight: 700;
+	/*border: 2px solid;*/
+}
+
+.about-img {
+	margin-top: 50px;
+	
+}
+
+.about-content h3 {
+    color: #413e66;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.about-content p { 
+    font-size: 18px;
+}
+
+.about-content ul {
+	margin-left: 0px;
+	padding-left: 0px;
+    font-size: 18px;
+}
+
+.about-content li{
+	margin: 15px;
+}
+
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+
+#services .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0
+    rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.box h4 {
+	font-size: 20px;
+	color: #333;
+}
+
+.box {
+  height: 100%;
+  display: block;
+  position: relative;
+  transition: all 0.2s ease-in;
+}
+
+.box:hover { 
+  transform: scale(1.2);
+}
+
+
+.owl-carousel  {
+	border: 2px solid;
+}
+
+.owl-carousel img {
+	width: 180px;
+	border: 2px solid;
+}
+
+
+/*<-----------------footer section------------------>*/
+
+#footer {
+	background-color: #BCE3D6;
+}
+
+
+.section-header h3 {
+	font-size: 40px;
+	color: #413e66;
+    font-family: sans-serif;
+}
+
+.contact-address i {
+	/*border: 2px solid;*/
+	margin-left: 132px;
+	padding: 20px;
+}
+
+.contact-phone i {
+	margin-left: 122px;
+	padding: 30px;
+}
+
+.contact-email i {
+	margin-left: 122px;
+	padding: 30px;
+}
+
+
+
+.copyright img {
+  width: 50px;
+}

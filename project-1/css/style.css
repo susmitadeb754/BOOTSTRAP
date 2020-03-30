@@ -1,0 +1,102 @@
+body {
+    
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+	border-bottom: 3px solid #F1948A;
+	background: #0D0F0F ;
+	opacity: 0.9;
+	
+}
+
+#intro {
+   background-color: #D5F5E3;
+   
+}
+
+#intro .intro-info {
+    padding-top: 80px;
+}
+
+#intro .intro-info h2 {
+    color:  #413e66;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+#home  {
+	margin-top: 100px;
+
+}
+
+
+
+
+
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 70%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  margin: 100px;
+  
+  
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+#footer {
+	margin: 20px;
+}
+
+
+.text-center a {
+	margin: 20px;
+	
+}
+
+
